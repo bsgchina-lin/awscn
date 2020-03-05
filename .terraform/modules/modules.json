@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"random-priv","Source":"./terraform-aws-random","Dir":"terraform-aws-random"},{"Key":"random","Source":"./terraform-aws-random","Dir":"terraform-aws-random"}]}

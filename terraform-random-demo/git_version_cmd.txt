@@ -1,0 +1,4 @@
+git add --all
+git commit -m "xxx"
+git tag -a v1.0.0 -m "Release Version 1.0.0"
+git push -u origin master -f --tags 

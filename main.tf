@@ -1,3 +1,9 @@
+terraform {
+  required_providers {
+    random = "~> 2.0"
+  }
+}
+
 variable "varname" {
   default = "Beta"
 }
