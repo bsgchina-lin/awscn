@@ -1,0 +1,12 @@
+import "tfplan"
+
+# Rule to restrict name variable
+varname_allowed = rule {
+  tfplan.variables.varname != "Beta"
+}
+  
+# Main rule that requires other rules to be true
+main = rule {
+  (varname_allowed) else true
+}
+
