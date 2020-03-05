@@ -5,7 +5,7 @@ terraform {
 }
 
 variable "varname" {
-  default = "Beta"
+  default = "Prod"
 }
 
 variable "name" {
@@ -20,7 +20,6 @@ module "demo" {
 #  version = "1.0.0"
   name = "NameVarInModule"
 }
-
 
 output "random_in_module_is" {
   value = module.demo.random_output
