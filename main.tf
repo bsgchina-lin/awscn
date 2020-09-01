@@ -14,7 +14,9 @@ variable "name" {
 }
 
 module "demo" {
-  source  = "git::https://github.com/bsgchina-lin/terraform-random-demo.git?ref=v1.0.0"
+  source  = "app.terraform.io/bsgchina/demo/random"
+  version = "1.0.0"
+#  source  = "git::https://github.com/bsgchina-lin/terraform-random-demo.git?ref=v1.0.0"
 #  source  = "git@github.com:bsgchina-lin/terraform-random-demo.git"
 #  source  = "tfe.better-service.cloud:9443/bsgchina/demo/random"
 #  source  = "./terraform-random-demo"
